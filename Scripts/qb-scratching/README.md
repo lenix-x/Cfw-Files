@@ -19,3 +19,7 @@ qb-scratching is made in a way that you can completely customize it. You can cha
 **More info & Installation guide?** Please see the [**Wiki**](https://github.com/xDreamLand/qb-scratching/wiki)!
 
 **qb-scratching** is a free resource, and not a paid resource like many out there. If you're willing to support the creator, please check out: [**https://buymeacoffee.com/dreamresources**](https://www.buymeacoffee.com/dreamresources)! Anything helps!
+
+# Installation
+
+    scratch_ticket 		 	 = {name = "scratch_ticket", 			label = "تذكرة خدش", 				weight = 15, 		type = "item", 		image = "جيب صورة :).png", 			unique = false, 	useable = true, 	shouldClose = false,    combinable = nil,   description = "تذكرة الحظ"},
