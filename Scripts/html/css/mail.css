@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.mail-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.mail-home {
+    position: relative;
+    left: 0;
+}
+
+.mail-header {
+    display: block;
+    height: 14vh;
+    width: 100%;
+    background: #ffffff;
+}
+
+.mail-list {
+    position: absolute;
+    width: 77.0%;
+    height: 37.5vh;
+    top: 11.8vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+}
+
+.mail-list::-webkit-scrollbar {
+    display: none;
+}
+
+.mail {
+    padding: 4px;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    border-bottom: .1vh solid rgb(0, 0, 0);
+    margin-bottom: 3.5%;
+}
+
+.mail-sender {
+    padding-top: 1.8vh;
+    padding-left: 0.5vh;
+    font-size: 1.1vh;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    left: 0.8vh;
+}
+
+.mail-subject {
+    padding-left: 0.5vh;
+    font-size: 1.1vh;
+    color: rgb(0, 0, 0);
+    max-width: 21vh;
+    width: 21vh;
+}
+
+.mail-message {
+    padding-left: 0.5vh;
+    font-size: 1.1vh;
+    color: rgb(0, 0, 0);
+    max-width: 21vh;
+    margin-bottom: 7%;
+}
+
+.mail-line {
+    margin-left: 1.5vh;
+    margin-right: 1.5vh;
+    border-bottom: .1vh solid rgb(0, 0, 0);
+}
+
+.mail-time {
+    margin-top: 0.7vh;
+    font-size: 1.15vh;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+}
+
+#mail-search {
+    display: block;
+    position: absolute;
+    background: none;
+    border: none;
+    background: none;
+    top: 6.9vh;
+    width: 77%;
+    margin: 0 auto;
+    left: -2%;
+    right: 0;
+    opacity: 1;
+    height: 2.5vh;
+    border-bottom: .1vh solid #000000ad;
+    outline: none;
+    text-indent: 2.5vh;
+    z-index: 100;
+    color: rgb(0, 0, 0);
+}
+#mail-search-icon {
+    position: absolute;
+    top: 7.5vh;
+    left: 3.5vh;
+    font-size: 1.4vh;
+    color: #000000;
+}
+
+.nomails {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7vh;
+    font-weight: bold;
+    color: #000000;
+    line-height: 20vh;
+}
+
+#mail-frown {
+    position: absolute;
+    top: 3.5%;
+    left: 41.5%;
+    font-size: 275%;
+    color: #000000;
+}
+
+.mail-block {
+    padding: 0 9px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1.4vh;
+}
+
+.mail-box {
+    transition: 0.25s;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9vh;
+    margin-bottom: 2%;
+}
+
+.mail-delete{
+    background:#ed3e3b;
+    padding: 2.0%;
+}
+
+.mail-accept{
+    background:#0095ff; 
+    padding: 2.0%;
+}

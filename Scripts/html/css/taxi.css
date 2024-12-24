@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+.taxi-app {
+    display: none;
+    height: 108%;
+    width: 100%;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.taxi-header {
+    position: absolute;
+    width: 100%;
+    height: 12vh;
+    top: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1.8vh;
+}
+
+.taxi-taxi-image {
+    position: absolute;
+    width: 27vh;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 6vh;
+}
+
+.taxis-list {
+    position: absolute;
+    width: 100%;
+    height: 71%;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 3%;
+}
+
+.taxis-list::-webkit-scrollbar {
+    display: none;
+}
+
+.taxi-list {
+    position: relative;
+    width: 90.0%;
+    height: 6vh;
+    margin: auto;
+    border-bottom: .1vh solid rgb(0, 0, 0);
+}
+
+.taxi-list-fullname {
+    position: absolute;
+    top: 10%;
+    font-size: 1.3vh;
+    max-width: 14vh;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 0);
+}
+
+.taxi-list-phone {
+    position: absolute;
+    top: 50%;
+    font-size: 1.3vh;
+    max-width: 14vh;
+    color: rgb(0, 0, 0);
+}
+
+.taxi-list-call {
+    color: #0095ff;
+    position: absolute;
+    top: 25%;
+    transform: rotate(0deg);
+    right: 0;
+    font-size: 2vh;
+}
+
+.taxi-list-call:hover i {
+    color: #41affe;
+}
+
+.notaxidrivers {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.7vh;
+    font-weight: bold;
+    color: #000000;
+    line-height: 20vh;
+}
+
+#taxi-frown {
+    position: absolute;
+    top: 15.5%;
+    left: 41.5%;
+    font-size: 275%;
+    color: #000000;
+}
